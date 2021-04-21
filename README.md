@@ -95,11 +95,11 @@ Les dades i operacions disponibles a través del servei són les que es presente
 |//usuari/codiens|	Codi de l’ens.|
 |//usuari/nif|	NIF.|
 |//usuari/tipus|	Tipus d'usuari:
-•	MLO: usuari del món local
-•	WIN: administrador del sistema
-•	EPC: usuari d’EPOCA (la contrasenya de l’usuari es valida contra EPOCA)
-•	CAC: usuari del servei del Consell Audiovisual de Catalunya
-•	SNC: usuari de la Sindicatura de Comptes.|
+<ul><li>MLO: usuari del món local</li>
+<li>WIN: administrador del sistema</li>
+<li>EPC: usuari d’EPOCA (la contrasenya de l’usuari es valida contra EPOCA)</li>
+<li>CAC: usuari del servei del Consell Audiovisual de Catalunya</li>
+<li>SNC: usuari de la Sindicatura de Comptes.</li><ul>|
 |//usuari/nom|	Nom.|
 |//usuari/dataAlta|	Data d’alta de l’usuari a l’EACAT.|
 |//usuari/email|	Correu electrònic.|
