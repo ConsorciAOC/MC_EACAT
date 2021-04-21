@@ -94,12 +94,10 @@ Les dades i operacions disponibles a través del servei són les que es presente
 |/respostaConsultaUsuari/resposta/usuari|	Bloc de dades corresponent a les dades dels usuaris que compleixen els criteris de cerca.|
 |//usuari/codiens|	Codi de l’ens.|
 |//usuari/nif| NIF.|
-|//usuari/tipus| Tipus d'usuari:<ul><li>MLO: usuari del món local</li>
-                                    <li>WIN: administrador del sistema</li>
-                                    <li>EPC: usuari d’EPOCA (la contrasenya de l’usuari es valida contra EPOCA)</li>
-                                    <li>CAC: usuari del servei del Consell Audiovisual de Catalunya</li>
-                                    <li>SNC: usuari de la Sindicatura de Comptes.</li>
-                                </ul>|
+|//usuari/tipus| Tipus d'usuari:<ul><li>MLO: usuari del món local</li><li>WIN: administrador del sistema</li><li>EPC: usuari d’EPOCA (la contrasenya de l’usuari es valida contra EPOCA)</li><li>CAC: usuari del servei del Consell Audiovisual de Catalunya</li><li>SNC: usuari de la Sindicatura de Comptes.</li></ul>|
+                                
+| //resposta/document/tipus | Tipus del document: <ul><li>ADJUNT: document adjunt (adjunt al formulari de tramitació)</li><li>ALTRES: altres evidències</li><li>MIS_ORIGINAL: dades MIS associades al formulari del PDF tramitat</li><li>MIS_ACTUALITZAT:  dades MIS actualitzades amb informació obtinguda durant el procés de tramitació</li><li>MUX_EVIDENCIA_ENTRADA: evidència de registre d'entrada</li><li>MUX_EVIDENCIA_SORTIDA: evidència de registre de sortida</li><li>PDF_DESCARREGA: PDF del tràmit descarregat</li><li>PDF_ORIGINAL: PDF del tràmit omplert per l'usuari</li><li>TIQUET: PDF amb el rebut dels registres electrònics</li><li>INT_PETICIO: Petició original si s'ha tramitat via [OVER_INTEGRACIO](#311-Integració-sense-PDF-OVER_INTEGRACIO)</li><li>XML_DADES: XML de dades del formulari a tramitar</li><li>XML_DADES_SIGNAT: XML de dades signadades (si s'ha tramitat via [OVER_INTEGRACIO](#311-Integració-sense-PDF-OVER_INTEGRACIO))</li></ul> |
+
 |//usuari/nom|	Nom.|
 |//usuari/dataAlta|	Data d’alta de l’usuari a l’EACAT.|
 |//usuari/email|	Correu electrònic.|
