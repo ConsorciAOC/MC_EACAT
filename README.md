@@ -158,7 +158,7 @@ Les dades i operacions disponibles a través del servei són les que es presente
 |//servei/servei|	Servei.|
 |//servei/rol|	Rol.|
 |//servei/descripcio|	Descripció.|
-|/respostaConsultaServei/resultat/codiResultat|	Codi de resultat de l’operació de consulta (vegeu apartat 3.1.2.1).|
+|/respostaConsultaServei/resultat/codiResultat|	Codi de resultat de l’operació de consulta [Resultat operació](#3121-Resultat-de-la-operació).|
 |/respostaConsultaServei/resultat/descripcio|	Descripció del resultat.|
 
 
@@ -198,7 +198,7 @@ Les dades i operacions disponibles a través del servei són les que es presente
 |//ens/nomProvincia|	Nom província.|
 |//ens/codiDelegacio|	Codi delegació:<ul><li>1: Barcelona</li><li>2: Girona</li><li>3: Lleida</li><li>4: Tarragona</li><li>5: Terres de l’Ebre</li><li>6: Catalunya Central</li><li>7: Alt Pirineu i Aran</li></ul>|
 |//ens/nomDelegacio|	Nom delegació.|
-|/respostaConsultaEns/resultat/codiResultat|	Codi de resultat de l’operació de consulta (vegeu apartat 3.1.2.1).|
+|/respostaConsultaEns/resultat/codiResultat|	Codi de resultat de l’operació de consulta [Resultat operació](#3121-Resultat-de-la-operació).|
 |/respostaConsultaEns/resultat/descripcio|	Descripció del resultat.|
 
 
@@ -206,12 +206,33 @@ Les dades i operacions disponibles a través del servei són les que es presente
 
 ### 3.4.1. Petició dades específiques
 
+
 ### 3.4.2. Resposta dades específiques
 
+| Element | Descripció |
+| --- | --- |
+|/respostaConsultaTipusEns/peticioConsultaTipusEns|	Bloc de dades corresponent a la petició / criteris de cerca que origina la resposta. Per més detalls vegeu apartat anterior.|
+|/respostaConsultaTipusEns/resposta|	Bloc de dades corresponent a la resposta a la consulta.|
+|/respostaConsultaTipusEns/resposta/tipusEns|	Bloc de dades corresponent a les dades dels tipus d’ens.|
+|//ens/idTipusEns|	Codi del tipus ens.|
+|//ens/nomTipusEns|	Nom del tipus ens.|
+|/respostaConsultaTipusEns/resultat/codiResultat|	Codi de resultat de l’operació de consulta [Resultat operació](#3121-Resultat-de-la-operació).|
+|/respostaConsultaTipusEns/resultat/descripcio|	Descripció del resultat.|
 
 
 ## 3.5. Dades Funcionari Habilitat EACAT_FUNCIONARI_HABILITAT
 
 ### 3.5.1. Petició dades específiques
+
+| Element | Descripció |
+| --- | --- |
+|/peticioConsultaFuncionariHabilitat/codiEns|	Codi de l’ens|
+|/peticioConsultaFuncionariHabilitat/nif|	Nif d’un usuari|
+|/peticioConsultaFuncionariHabilitat/dataAltaInici|	Data inicial per agafar tots els usuaris desde aquesta data fins la data d’avui, es pot combinar amb dataAltaFi per indicar un rang de data mes curt. Exemple: 2020-09-29+01:00|
+|/peticioConsultaFuncionariHabilitat/dataAltaFi|	Data fi per agafar tots els usuaris que s’hagin donat d’alta una data igual o inferior a la data informada, es pot combinar amb dataAltaFi per indicar un rang de data mes curt. Exemple: 2020-11-30+01:00|
+|/peticioConsultaFuncionariHabilitat/assistirInteressats|	Boolean: Actiu/No actiu rol Assistència als interessats|
+|/peticioConsultaFuncionariHabilitat/expCopiesAutentiques|	Boolean: Actiu/No actiu rol Expedició còpies autèntiques|
+|/peticioConsultaFuncionariHabilitat/donatsBaixa|	Boolean: Sí s’envia un true també es mostraran els usuaris que s’han donat de baixa.|
+
 
 ### 3.5.2. Resposta dades específiques
