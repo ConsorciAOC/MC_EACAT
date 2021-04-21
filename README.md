@@ -166,8 +166,40 @@ Les dades i operacions disponibles a través del servei són les que es presente
 
 ### 3.3.1. Petició dades específiques
 
+| Element | Descripció |
+| --- | --- |
+|/peticioConsultaEns/codiEns|	Codi INE de l’ens a consultar. |
+|/peticioConsultaEns/idTipusEns|	Codi tipus de l’ens a consultar. |
+|/peticioConsultaEns/nom|	Nom de l’ens a consultar. |
+|/peticioConsultaEns/nomMunicipi|	Nom del municipi de l’ens a consultar. |
+|/peticioConsultaEns/nomProvincia|	Nom de la provincia de l’ens a consultar. |
+
+
+
 ### 3.3.2. Resposta dades específiques
 
+| Element | Descripció |
+| --- | --- |
+|/respostaConsultaEns/peticioConsultaEns|	Bloc de dades corresponent a la petició / criteris de cerca que origina la resposta. Per més detalls vegeu apartat anterior.|
+|/respostaConsultaEns/resposta|	Bloc de dades corresponent a la resposta a la consulta.|
+|/respostaConsultaEns/resposta/ens|	Bloc de dades corresponent a les dades dels ens que compleixen els criteris de cerca.|
+|//ens/codiens|	Codi de L’ENS.|
+|//ens/nom|	Nom.|
+|//ens/idTipusEns|	Codi del tipus ens.|
+|//ens/nomTipusEns|	Nom del tipus ens.|
+|//ens/cif|	CIF.|
+|//ens/adreca|	Adreça.|
+|//ens/codiPostal|	Codi postal.|
+|//ens/codiMunicipi|	Codi municipi.|
+|//ens/nomMunicipi|	Nom municipi.|
+|//ens/codiComarca|	Codi comarca.|
+|//ens/nomComarca|	Nom comarca.|
+|//ens/codiProvincia|	Codi província.|
+|//ens/nomProvincia|	Nom província.|
+|//ens/codiDelegacio|	Codi delegació:<ul><li>1: Barcelona</li><li>2: Girona</li><li>3: Lleida</li><li>4: Tarragona</li><li>5: Terres de l’Ebre</li><li>6: Catalunya Central</li><li>7: Alt Pirineu i Aran</li></ul>|
+|//ens/nomDelegacio|	Nom delegació.|
+|/respostaConsultaEns/resultat/codiResultat|	Codi de resultat de l’operació de consulta (vegeu apartat 3.1.2.1).|
+|/respostaConsultaEns/resultat/descripcio|	Descripció del resultat.|
 
 
 ## 3.4. Dades tipus ens adherits EACAT_TIPUS_ENS
