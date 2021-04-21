@@ -29,10 +29,21 @@ Document d’integració del servei
 - [2. Transmissions de dades disponibles](#2-Transmissions-de-dades-disponibles)
 - [3. Missatgeria del servei](#3-Missatgeria-del-servei)
    * [3.1. Dades d'usuaris (EACAT_USUARI)](#31-Dades-usuaris-EACAT_USUARI)
+      - [3.1.1. Petició dades específiques](#311-Petició-dades-específiques)
+      - [3.1.2. Resposta dades específiques](#312-Resposta-dades-específiques)   
+          - [3.1.2.1. Resultat de l'operació](#3121-Resultat-de-la-operació)         
    * [3.2. Dades d'usuaris (EACAT_SERVEI)](#32-Dades-usuaris-EACAT_SERVEI)
+      - [3.2.1. Petició dades específiques](#321-Petició-dades-específiques)
+      - [3.2.2. Resposta dades específiques](#322-Resposta-dades-específiques)   
    * [3.3. Dades d'ens adherits  (EACAT_ENS)](#33-Dades-ens-adherits-EACAT_ENS)
+      - [3.3.1. Petició dades específiques](#331-Petició-dades-específiques)
+      - [3.3.2. Resposta dades específiques](#332-Resposta-dades-específiques)   
    * [3.4. Dades tipus d'ens adherits (EACAT_TIPUS_ENS)](#34-Dades-tipus-ens-adherits-EACAT_TIPUS_ENS)
+      - [3.4.1. Petició dades específiques](#341-Petició-dades-específiques)
+      - [3.4.2. Resposta dades específiques](#342-Resposta-dades-específiques)   
    * [3.5. Dades Funcionari Habilitat (EACAT_FUNCIONARI_HABILITAT)](#35-Dades-Funcionari-Habilitat-EACAT_FUNCIONARI_HABILITAT)
+      - [3.5.1. Petició dades específiques](#351-Petició-dades-específiques)
+      - [3.5.2. Resposta dades específiques](#352-Resposta-dades-específiques)
 
 
 # 1. Introducció
@@ -65,10 +76,22 @@ Les dades i operacions disponibles a través del servei són les que es presente
 
 
 ## 3.1. Dades usuaris EACAT_USUARI
+### 3.1.1. Petició dades específiques
+### 3.1.2. Resposta dades específiques
+#### 3.1.2.1 Resultat de la operació
 
 ## 3.2. Dades usuaris EACAT_SERVEI
+### 3.2.1. Petició dades específiques
+### 3.2.2. Resposta dades específiques
 
 ## 3.3. Dades ens adherits EACAT_ENS
+### 3.3.1. Petició dades específiques
+### 3.3.2. Resposta dades específiques
 
 ## 3.4. Dades tipus ens adherits EACAT_TIPUS_ENS
+### 3.4.1. Petició dades específiques
+### 3.4.2. Resposta dades específiques
+
 ## 3.5. Dades Funcionari Habilitat EACAT_FUNCIONARI_HABILITAT
+### 3.5.1. Petició dades específiques
+### 3.5.2. Resposta dades específiques
