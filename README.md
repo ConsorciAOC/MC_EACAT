@@ -118,7 +118,7 @@ Les dades i operacions disponibles a través del servei són les que es presente
 |//usuari/ens/nomProvincia|	Nom província de l’ens.|
 |//usuari/ens/codiDelegacio|	Codi delegació de l’ens:<ul><li>1: Barcelona</li><li>2: Girona</li><li>3: Lleida</li><li>4: Tarragona</li><li>5: Terres de l’Ebre</li></ul>|
 |//usuari/ens/nomDelegacio|	Nom delegació de l’ens.|
-|/respostaConsultaUsuari/resultat/codiResultat|	Codi de resultat de l’operació de consulta (vegeu apartat 3.1.2.1).|
+|/respostaConsultaUsuari/resultat/codiResultat|	Codi de resultat de l'operació de consulta [Resultat operació](#3121-Resultat-de-la-operació) .|
 |/respostaConsultaUsuari/resultat/descripcio|	Descripció del resultat.|
 
 
