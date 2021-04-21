@@ -28,12 +28,11 @@ Document d’integració del servei
 - [1. Introducció](#1-introducció)
 - [2. Transmissions de dades disponibles](#2-Transmissions-de-dades-disponibles)
 - [3. Missatgeria del servei](#3-Missatgeria-del-servei)
-   * [3.1. Descàrrega de la documentació d'un tràmit (OVER_DOCUMENTACIO)](#31-Descàrrega-de-la-documentació-tràmit-OVER_DOCUMENTACIO)
-      - [3.1.1. Dades d'usuaris (EACAT_USUARI)](#311-Dades-usuaris-EACAT_USUARI)
-      - [3.1.2. Dades d'usuaris (EACAT_SERVEI)](#312-Dades-usuaris-EACAT_SERVEI)
-      - [3.1.3. Dades d'ens adherits  (EACAT_ENS)](#313-Dades-ens-adherits-EACAT_ENS)
-      - [3.1.4. Dades tipus d'ens adherits (EACAT_TIPUS_ENS)](#314-Dades-tipus-ens-adherits-EACAT_TIPUS_ENS)
-      - [3.1.5. Dades Funcionari Habilitat (EACAT_FUNCIONARI_HABILITAT)](#315-Dades-Funcionari-Habilitat-EACAT_FUNCIONARI_HABILITAT)
+   * [3.1. Dades d'usuaris (EACAT_USUARI)](#31-Dades-usuaris-EACAT_USUARI)
+   * [3.2. Dades d'usuaris (EACAT_SERVEI)](#312-Dades-usuaris-EACAT_SERVEI)
+   * [3.3. Dades d'ens adherits  (EACAT_ENS)](#313-Dades-ens-adherits-EACAT_ENS)
+   * [3.4. Dades tipus d'ens adherits (EACAT_TIPUS_ENS)](#314-Dades-tipus-ens-adherits-EACAT_TIPUS_ENS)
+   * [3.5. Dades Funcionari Habilitat (EACAT_FUNCIONARI_HABILITAT)](#315-Dades-Funcionari-Habilitat-EACAT_FUNCIONARI_HABILITAT)
 
 
 # 1. Introducció
