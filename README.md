@@ -124,16 +124,42 @@ Les dades i operacions disponibles a través del servei són les que es presente
 
 #### 3.1.2.1 Resultat de la operació
 
+•	0: Operació realitzada correctament.
+
+•	1: Error realitzant la consulta.
 
 
 ## 3.2. Dades usuaris EACAT_SERVEI
 
 ### 3.2.1. Petició dades específiques
 
+| Element | Descripció |
+| --- | --- |
+|/peticioConsultaServei/servei|	Codi del servei a consultar. | 
+|/peticioConsultaServei/nif|	NIF de l’usuari a filtrar.  Si no s’informa, es retornen totes les dades del servei indicat.|
+|/peticioConsultaServei/codiEns|	Codi INE de l’ens a filtrar. Si no s’informa, es retornen totes les dades del servei indicat.|
+
 
 
 ### 3.2.2. Resposta dades específiques
 
+| Element | Descripció |
+| --- | --- |
+|/respostaConsultaServei/peticioConsultaServei|	Bloc de dades corresponent a la petició / criteris de cerca que origina la resposta. Per més detalls vegeu apartat anterior.|
+|/respostaConsultaServei/resposta|	Bloc de dades corresponent a la resposta a la consulta.|
+|/respostaConsultaServei/resposta/servei|	Bloc de dades corresponent a les dades dels serveis que compleixen els criteris de cerca.|
+|//servei/nif|	NIF de l’usuari.|
+|//servei/nom|	Nom de l’usuari.|
+|//servei/perfil|	Perfil de l’usuari.|
+|//servei/codiEns|	Codi de l’ens|
+|//servei/nomEns|	Nom de l’ens.|
+|//servei/idTipusEns|	Codi del tipus ens.|
+|//servei/nomTipusEns|	Nom del tipus ens.|
+|//servei/servei|	Servei.|
+|//servei/rol|	Rol.|
+|//servei/descripcio|	Descripció.|
+|/respostaConsultaServei/resultat/codiResultat|	Codi de resultat de l’operació de consulta (vegeu apartat 3.1.2.1).|
+|/respostaConsultaServei/resultat/descripcio|	Descripció del resultat.|
 
 
 ## 3.3. Dades ens adherits EACAT_ENS
