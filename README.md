@@ -94,7 +94,7 @@ Les dades i operacions disponibles a través del servei són les que es presente
 |/respostaConsultaUsuari/resposta/usuari|	Bloc de dades corresponent a les dades dels usuaris que compleixen els criteris de cerca.|
 |//usuari/codiens|	Codi de l’ens.|
 |//usuari/nif|	NIF.|
-|//usuari/tipus	Tipus d’usuari:
+|//usuari/tipus|	Tipus d'usuari:
 •	MLO: usuari del món local
 •	WIN: administrador del sistema
 •	EPC: usuari d’EPOCA (la contrasenya de l’usuari es valida contra EPOCA)
