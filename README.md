@@ -29,10 +29,10 @@ Document d’integració del servei
 - [2. Transmissions de dades disponibles](#2-Transmissions-de-dades-disponibles)
 - [3. Missatgeria del servei](#3-Missatgeria-del-servei)
    * [3.1. Dades d'usuaris (EACAT_USUARI)](#31-Dades-usuaris-EACAT_USUARI)
-   * [3.2. Dades d'usuaris (EACAT_SERVEI)](#312-Dades-usuaris-EACAT_SERVEI)
-   * [3.3. Dades d'ens adherits  (EACAT_ENS)](#313-Dades-ens-adherits-EACAT_ENS)
-   * [3.4. Dades tipus d'ens adherits (EACAT_TIPUS_ENS)](#314-Dades-tipus-ens-adherits-EACAT_TIPUS_ENS)
-   * [3.5. Dades Funcionari Habilitat (EACAT_FUNCIONARI_HABILITAT)](#315-Dades-Funcionari-Habilitat-EACAT_FUNCIONARI_HABILITAT)
+   * [3.2. Dades d'usuaris (EACAT_SERVEI)](#32-Dades-usuaris-EACAT_SERVEI)
+   * [3.3. Dades d'ens adherits  (EACAT_ENS)](#33-Dades-ens-adherits-EACAT_ENS)
+   * [3.4. Dades tipus d'ens adherits (EACAT_TIPUS_ENS)](#34-Dades-tipus-ens-adherits-EACAT_TIPUS_ENS)
+   * [3.5. Dades Funcionari Habilitat (EACAT_FUNCIONARI_HABILITAT)](#35-Dades-Funcionari-Habilitat-EACAT_FUNCIONARI_HABILITAT)
 
 
 # 1. Introducció
@@ -52,13 +52,13 @@ Les dades i operacions disponibles a través del servei són les que es presente
 |----|
 |Consorci Administració Oberta de Catalunya|
 
-|PRODUCTE | MODALITAT                                                                                 | DESCRIPCIO|
-|----     | ----------                                                                                | ----------|
-|OVER     | [EACAT_USUARI](#311-Dades-usuaris-EACAT_USUARI)                                           | Operació de descàrrega de documentació associada a un tràmit|
-|OVER     | [EACAT_SERVEI](#312-Dades-usuaris-EACAT_SERVEI)                                           | Operació d'obtenció del formulari de tramitació d'un tràmit|
-|OVER     | [EACAT_ENS](#313-Dades-ens-adherits-EACAT_ENS)                                            | Operació de descàrrega de documentació associada a un tràmit|
-|OVER     | [EACAT_TIPUS_ENS](#314-Dades-tipus-ens-adherits-EACAT_TIPUS_ENS)                          | Operació d'obtenció del formulari de tramitació d'un tràmit|
-|OVER     | [EACAT_FUNCIONARI_HABILITAT](#315-Dades-Funcionari-Habilitat-EACAT_FUNCIONARI_HABILITAT)  | Operació d'obtenció del formulari de tramitació d'un tràmit|
+|PRODUCTE | MODALITAT                                                                                | DESCRIPCIO|
+|----     | ----------                                                                               | ----------|
+|OVER     | [EACAT_USUARI](#31-Dades-usuaris-EACAT_USUARI)                                           | Operació de descàrrega de documentació associada a un tràmit|
+|OVER     | [EACAT_SERVEI](#32-Dades-usuaris-EACAT_SERVEI)                                           | Operació d'obtenció del formulari de tramitació d'un tràmit|
+|OVER     | [EACAT_ENS](#33-Dades-ens-adherits-EACAT_ENS)                                            | Operació de descàrrega de documentació associada a un tràmit|
+|OVER     | [EACAT_TIPUS_ENS](#34-Dades-tipus-ens-adherits-EACAT_TIPUS_ENS)                          | Operació d'obtenció del formulari de tramitació d'un tràmit|
+|OVER     | [EACAT_FUNCIONARI_HABILITAT](#35-Dades-Funcionari-Habilitat-EACAT_FUNCIONARI_HABILITAT)  | Operació d'obtenció del formulari de tramitació d'un tràmit|
 
 
 # 3. Missatgeria del servei
