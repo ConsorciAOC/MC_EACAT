@@ -95,9 +95,6 @@ Les dades i operacions disponibles a través del servei són les que es presente
 |//usuari/codiens|	Codi de l’ens.|
 |//usuari/nif| NIF.|
 |//usuari/tipus| Tipus d'usuari:<ul><li>MLO: usuari del món local</li><li>WIN: administrador del sistema</li><li>EPC: usuari d’EPOCA (la contrasenya de l’usuari es valida contra EPOCA)</li><li>CAC: usuari del servei del Consell Audiovisual de Catalunya</li><li>SNC: usuari de la Sindicatura de Comptes.</li></ul>|
-                                
-| //resposta/document/tipus | Tipus del document: <ul><li>ADJUNT: document adjunt (adjunt al formulari de tramitació)</li><li>ALTRES: altres evidències</li><li>MIS_ORIGINAL: dades MIS associades al formulari del PDF tramitat</li><li>MIS_ACTUALITZAT:  dades MIS actualitzades amb informació obtinguda durant el procés de tramitació</li><li>MUX_EVIDENCIA_ENTRADA: evidència de registre d'entrada</li><li>MUX_EVIDENCIA_SORTIDA: evidència de registre de sortida</li><li>PDF_DESCARREGA: PDF del tràmit descarregat</li><li>PDF_ORIGINAL: PDF del tràmit omplert per l'usuari</li><li>TIQUET: PDF amb el rebut dels registres electrònics</li><li>INT_PETICIO: Petició original si s'ha tramitat via [OVER_INTEGRACIO](#311-Integració-sense-PDF-OVER_INTEGRACIO)</li><li>XML_DADES: XML de dades del formulari a tramitar</li><li>XML_DADES_SIGNAT: XML de dades signadades (si s'ha tramitat via [OVER_INTEGRACIO](#311-Integració-sense-PDF-OVER_INTEGRACIO))</li></ul> |
-
 |//usuari/nom|	Nom.|
 |//usuari/dataAlta|	Data d’alta de l’usuari a l’EACAT.|
 |//usuari/email|	Correu electrònic.|
@@ -119,12 +116,7 @@ Les dades i operacions disponibles a través del servei són les que es presente
 |//usuari/ens/nomComarca|	Nom comarca de l’ens.|
 |//usuari/ens/codiProvincia|	Codi província de l’ens.|
 |//usuari/ens/nomProvincia|	Nom província de l’ens.|
-|//usuari/ens/codiDelegacio|	Codi delegació de l’ens:
-•	1: Barcelona
-•	2: Girona
-•	3: Lleida
-•	4: Tarragona
-•	5: Terres de l’Ebre|
+|//usuari/ens/codiDelegacio|	Codi delegació de l’ens:<ul><li>1: Barcelona</li><li>2: Girona</li><li>3: Lleida</li><li>4: Tarragona</li><li>5: Terres de l’Ebre</li></ul>|
 |//usuari/ens/nomDelegacio|	Nom delegació de l’ens.|
 |/respostaConsultaUsuari/resultat/codiResultat|	Codi de resultat de l’operació de consulta (vegeu apartat 3.1.2.1).|
 |/respostaConsultaUsuari/resultat/descripcio|	Descripció del resultat.|
