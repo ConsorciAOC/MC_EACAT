@@ -236,3 +236,20 @@ Les dades i operacions disponibles a través del servei són les que es presente
 
 
 ### 3.5.2. Resposta dades específiques
+
+| Element | Descripció |
+| --- | --- |
+|/respostaConsultaEns/peticioConsultaFuncionariHabilitat|	Bloc de dades corresponent a la petició / criteris de cerca que origina la resposta. Per més detalls vegeu apartat anterior.|
+|/respostaConsultaEns/funcionariHabilitat|	Bloc de dades corresponent a les dades dels Funcionaris Habilitats que compleixen els criteris de cerca.|
+|//funcionariHabilitat/nom|	Nom de l’usuari.|
+|//funcionariHabilitat/nif|	NIF de l’usuari|
+|//funcionariHabilitat/tipus|	Tipus d’usuari:<ul><li>MLO: usuari del món local</li><li>WIN: administrador del sistema</li><li>EPC: usuari d’EPOCA (la contrasenya de l’usuari es valida contra EPOCA)</li><li>CAC: usuari del servei del Consell Audiovisual de Catalunya</li><li>SNC: usuari de la Sindicatura de Comptes.</ul>|
+|//funcionariHabilitat/nomEns|	Nom de l’ens.|
+|//funcionariHabilitat/codiEns|	Codi de l’ENS.|
+|//funcionariHabilitat/dataAlta|	Quan es va donar d’alta el usuari a aquest rol.|
+|//funcionariHabilitat/dataBaixa|	S’informa si s’ha donat de baixa aquest usuari al rol Funcionari Habilitat.|
+|//funcionariHabilitat/assistirInteressats|	Rol Assistència als interessats|
+|//funcionariHabilitat/expCopiesAutentiques|	Rol Expedició còpies autèntiques|
+|//funcionariHabilitat/unitatAdministrativa|	Unitat administrativa.|
+|/respostaConsultaEns/resultat/codiResultat|	Codi de resultat de l’operació de consulta [Resultat operació](#3121-Resultat-de-la-operació).|
+|/respostaConsultaEns/resultat/descripcio|	Descripció del resultat.|
