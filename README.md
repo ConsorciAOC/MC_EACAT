@@ -65,11 +65,11 @@ Les dades i operacions disponibles a través del servei són les que es presente
 
 |PRODUCTE | MODALITAT                                                                                | DESCRIPCIO|
 |----     | ----------                                                                               | ----------|
-|OVER     | [EACAT_USUARI](#31-Dades-usuaris-EACAT_USUARI)                                           | Consulta de dades d’usuaris enregistrats a l'EACAT.|
-|OVER     | [EACAT_SERVEI](#32-Dades-usuaris-EACAT_SERVEI)                                           | Consulta de dades de serveis enregistrats a l'EACAT.|
-|OVER     | [EACAT_ENS](#33-Dades-ens-adherits-EACAT_ENS)                                            | Consulta de dades d’ens adherits a l'EACAT.|
-|OVER     | [EACAT_TIPUS_ENS](#34-Dades-tipus-ens-adherits-EACAT_TIPUS_ENS)                          | Consulta de tipus d'ens a l'EACAT.|
-|OVER     | [EACAT_FUNCIONARI_HABILITAT](#35-Dades-Funcionari-Habilitat-EACAT_FUNCIONARI_HABILITAT)  | Consulta de funcionaris habilitats a l'EACAT.|
+|EACAT     | [EACAT_USUARI](#31-Dades-usuaris-EACAT_USUARI)                                           | Consulta de dades d’usuaris enregistrats a l'EACAT.|
+|EACAT     | [EACAT_SERVEI](#32-Dades-usuaris-EACAT_SERVEI)                                           | Consulta de dades de serveis enregistrats a l'EACAT.|
+|EACAT     | [EACAT_ENS](#33-Dades-ens-adherits-EACAT_ENS)                                            | Consulta de dades d’ens adherits a l'EACAT.|
+|EACAT     | [EACAT_TIPUS_ENS](#34-Dades-tipus-ens-adherits-EACAT_TIPUS_ENS)                          | Consulta de tipus d'ens a l'EACAT.|
+|EACAT     | [EACAT_FUNCIONARI_HABILITAT](#35-Dades-Funcionari-Habilitat-EACAT_FUNCIONARI_HABILITAT)  | Consulta de funcionaris habilitats a l'EACAT.|
 
 
 # 3. Missatgeria del servei
