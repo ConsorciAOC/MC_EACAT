@@ -159,7 +159,7 @@ Les dades i operacions disponibles a través del servei són les que es presente
 ### 3.2.2. Resposta dades específiques
 
 <p align="center">
-<img align="center" src="img/peticioconsultaserveis.jpg" />
+<img align="center" src="img/respostaconsultaserveis.jpg" />
 </p>  
 
 
