@@ -336,3 +336,5 @@ De l’schema associat a la resposta especifica, el servei informa les dades que
 |//funcionariHabilitat/unitatAdministrativa|	Unitat administrativa.|
 |/respostaConsultaEns/resultat/codiResultat|	Codi de resultat de l’operació de consulta [Resultat operació](#3121-Resultat-de-la-operació).|
 |/respostaConsultaEns/resultat/descripcio|	Descripció del resultat.|
+
+
