@@ -186,6 +186,11 @@ Les dades i operacions disponibles a través del servei són les que es presente
 
 ### 3.3.1. Petició dades específiques
 
+<p align="center">
+<img align="center" src="img/peticioconsultaens.jpg" />
+</p>
+
+
 | Element | Descripció |
 | --- | --- |
 |/peticioConsultaEns/codiEns|	Codi INE de l’ens a consultar. |
@@ -197,6 +202,11 @@ Les dades i operacions disponibles a través del servei són les que es presente
 
 
 ### 3.3.2. Resposta dades específiques
+
+<p align="center">
+<img align="center" src="img/respostaconsultaens.jpg" />
+</p>
+
 
 | Element | Descripció |
 | --- | --- |
@@ -226,8 +236,17 @@ Les dades i operacions disponibles a través del servei són les que es presente
 
 ### 3.4.1. Petició dades específiques
 
+<p align="center">
+<img align="center" src="img/peticioconsultatipusens.jpg" />
+</p>
 
 ### 3.4.2. Resposta dades específiques
+
+<p align="center">
+<img align="center" src="img/respostaconsultatipusens.jpg" />
+</p>
+
+
 
 | Element | Descripció |
 | --- | --- |
@@ -244,6 +263,12 @@ Les dades i operacions disponibles a través del servei són les que es presente
 
 ### 3.5.1. Petició dades específiques
 
+<p align="center">
+<img align="center" src="img/peticioconsultafuncionarishabilitats.jpg" />
+</p>
+
+
+
 | Element | Descripció |
 | --- | --- |
 |/peticioConsultaFuncionariHabilitat/codiEns|	Codi de l’ens|
@@ -256,6 +281,11 @@ Les dades i operacions disponibles a través del servei són les que es presente
 
 
 ### 3.5.2. Resposta dades específiques
+
+<p align="center">
+<img align="center" src="img/respostaconsultafuncionarishabilitats.jpg" />
+</p>
+
 
 | Element | Descripció |
 | --- | --- |
