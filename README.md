@@ -81,7 +81,8 @@ Les dades i operacions disponibles a través del servei són les que es presente
 
 <p align="center">
 <img align="center" src="img/peticioconsultausuari.jpg" />
-</p>  
+</p>
+
 
 | Element | Descripció |
 | --- | --- |
@@ -93,7 +94,8 @@ Les dades i operacions disponibles a través del servei són les que es presente
 
 <p align="center">
 <img align="center" src="img/respostaconsultausuari.jpg" />
-</p>  
+</p>
+
 
 | Element | Descripció |
 | --- | --- |
@@ -141,6 +143,11 @@ Les dades i operacions disponibles a través del servei són les que es presente
 
 ### 3.2.1. Petició dades específiques
 
+<p align="center">
+<img align="center" src="img/peticioconsultaservei.jpg" />
+</p>  
+
+
 | Element | Descripció |
 | --- | --- |
 |/peticioConsultaServei/servei|	Codi del servei a consultar. | 
@@ -150,6 +157,11 @@ Les dades i operacions disponibles a través del servei són les que es presente
 
 
 ### 3.2.2. Resposta dades específiques
+
+<p align="center">
+<img align="center" src="img/peticioconsultaservei.jpg" />
+</p>  
+
 
 | Element | Descripció |
 | --- | --- |
