@@ -322,8 +322,8 @@ De l’schema associat a la resposta especifica, el servei informa les dades que
 
 | Element | Descripció |
 | --- | --- |
-|/respostaConsultaEns/peticioConsultaFuncionariHabilitat|	Bloc de dades corresponent a la petició / criteris de cerca que origina la resposta. Per més detalls vegeu apartat anterior.|
-|/respostaConsultaEns/funcionariHabilitat|	Bloc de dades corresponent a les dades dels Funcionaris Habilitats que compleixen els criteris de cerca.|
+|/respostaConsultaFuncionariHabilitat/peticioConsultaFuncionariHabilitat|	Bloc de dades corresponent a la petició / criteris de cerca que origina la resposta. Per més detalls vegeu apartat anterior.|
+|/respostaConsultaFuncionariHabilitat/funcionariHabilitat|	Bloc de dades corresponent a les dades dels Funcionaris Habilitats que compleixen els criteris de cerca.|
 |//funcionariHabilitat/nom|	Nom de l’usuari.|
 |//funcionariHabilitat/nif|	NIF de l’usuari|
 |//funcionariHabilitat/tipus|	Tipus d’usuari:<ul><li>MLO: usuari del món local</li><li>WIN: administrador del sistema</li><li>EPC: usuari d’EPOCA (la contrasenya de l’usuari es valida contra EPOCA)</li><li>CAC: usuari del servei del Consell Audiovisual de Catalunya</li><li>SNC: usuari de la Sindicatura de Comptes.</ul>|
