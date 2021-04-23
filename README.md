@@ -334,7 +334,7 @@ De l’schema associat a la resposta especifica, el servei informa les dades que
 |//funcionariHabilitat/assistirInteressats|	Rol Assistència als interessats|
 |//funcionariHabilitat/expCopiesAutentiques|	Rol Expedició còpies autèntiques|
 |//funcionariHabilitat/unitatAdministrativa|	Unitat administrativa.|
-|/respostaConsultaEns/resultat/codiResultat|	Codi de resultat de l’operació de consulta [Resultat operació](#3121-Resultat-de-la-operació).|
-|/respostaConsultaEns/resultat/descripcio|	Descripció del resultat.|
+|/respostaConsultaFuncionariHabilitat/resultat/codiResultat|	Codi de resultat de l’operació de consulta [Resultat operació](#3121-Resultat-de-la-operació).|
+|/respostaConsultaFuncionariHabilitat/resultat/descripcio|	Descripció del resultat.|
 
 
