@@ -74,10 +74,14 @@ Les dades i operacions disponibles a través del servei són les que es presente
 
 # 3. Missatgeria del servei
 
+A continuació es detalla la missatgeria corresponent al bloc de dades específiques de les modalitats de consum del producte.
+
 
 ## 3.1. Dades usuaris EACAT_USUARI
 
 ### 3.1.1. Petició dades específiques
+
+Aquesta modalitat permet consultar les dades dels usuaris enregistrats a l’EACAT.
 
 <p align="center">
 <img align="center" src="img/peticioconsultausuari.jpg" />
@@ -91,6 +95,8 @@ Les dades i operacions disponibles a través del servei són les que es presente
 
 
 ### 3.1.2. Resposta dades específiques
+
+De l’schema associat a la resposta especifica, el servei informa les dades que es detallen a continuació.
 
 <p align="center">
 <img align="center" src="img/respostaconsultausuari.jpg" />
@@ -143,6 +149,8 @@ Les dades i operacions disponibles a través del servei són les que es presente
 
 ### 3.2.1. Petició dades específiques
 
+Aquesta modalitat permet consultar les dades dels serveis enregistrats a l’EACAT.
+
 <p align="center">
 <img align="center" src="img/peticioconsultaserveis.jpg" />
 </p>  
@@ -157,6 +165,8 @@ Les dades i operacions disponibles a través del servei són les que es presente
 
 
 ### 3.2.2. Resposta dades específiques
+
+De l’schema associat a la resposta especifica, el servei informa les dades que es detallen a continuació.
 
 <p align="center">
 <img align="center" src="img/respostaconsultaserveis.jpg" />
@@ -186,6 +196,10 @@ Les dades i operacions disponibles a través del servei són les que es presente
 
 ### 3.3.1. Petició dades específiques
 
+Aquesta modalitat permet consultar les dades dels ens adherits a l’EACAT.
+
+Com a mínim s’ha d’escollir un paràmetre d’entrada.
+
 <p align="center">
 <img align="center" src="img/peticioconsultaens.jpg" />
 </p>
@@ -202,6 +216,14 @@ Les dades i operacions disponibles a través del servei són les que es presente
 
 
 ### 3.3.2. Resposta dades específiques
+
+De l’schema associat a la resposta especifica, el servei informa les dades que es detallen a continuació.
+La resposta màxim serà de 500 blocs (/respostaConsultaEns/resposta/ens). Si voleu per exemple obtindré tots els Ajuntaments, podeu realitzar 4 crides (una per cada provincia).
+
+```/peticioConsultaEns/idTipusEns``` --> 2
+
+```/peticioConsultaEns/nomProvincia``` --> Barcelona | Lleida | Tarragona | Girona
+
 
 <p align="center">
 <img align="center" src="img/respostaconsultaens.jpg" />
