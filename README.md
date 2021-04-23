@@ -79,6 +79,10 @@ Les dades i operacions disponibles a través del servei són les que es presente
 
 ### 3.1.1. Petició dades específiques
 
+<p align="center">
+<img align="center" src="img/peticioconsultausuari.jpg" />
+</p>  
+
 | Element | Descripció |
 | --- | --- |
 | /peticioConsultaUsuari/nif | NIF de l’usuari a consultar.  |
@@ -86,6 +90,10 @@ Les dades i operacions disponibles a través del servei són les que es presente
 
 
 ### 3.1.2. Resposta dades específiques
+
+<p align="center">
+<img align="center" src="img/respostaconsultausuari.jpg" />
+</p>  
 
 | Element | Descripció |
 | --- | --- |
