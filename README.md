@@ -218,7 +218,8 @@ Com a mínim s’ha d’escollir un paràmetre d’entrada.
 ### 3.3.2. Resposta dades específiques
 
 De l’schema associat a la resposta especifica, el servei informa les dades que es detallen a continuació.
-La resposta màxim serà de 500 blocs (/respostaConsultaEns/resposta/ens). Si voleu per exemple obtindré tots els Ajuntaments, podeu realitzar 4 crides (una per cada provincia).
+
+La resposta màxim serà de 500 blocs (```/respostaConsultaEns/resposta/ens```). Si voleu per exemple obtindré tots els Ajuntaments, podeu realitzar 4 crides (una per cada provincia).
 
 ```/peticioConsultaEns/idTipusEns``` --> 2
 
@@ -258,11 +259,15 @@ La resposta màxim serà de 500 blocs (/respostaConsultaEns/resposta/ens). Si vo
 
 ### 3.4.1. Petició dades específiques
 
+Aquesta modalitat, retorna un llistat amb tots els tipus d’ENS a l’EACAT. Per aquesta modalitat no hi ha paràmetres de cerques.
+
 <p align="center">
 <img align="center" src="img/peticioconsultatipusens.jpg" />
 </p>
 
 ### 3.4.2. Resposta dades específiques
+
+De l’schema associat a la resposta especifica, el servei informa les dades que es detallen a continuació.
 
 <p align="center">
 <img align="center" src="img/respostaconsultatipusens.jpg" />
@@ -285,10 +290,14 @@ La resposta màxim serà de 500 blocs (/respostaConsultaEns/resposta/ens). Si vo
 
 ### 3.5.1. Petició dades específiques
 
+Aquesta modalitat permet consultar els usuaris que s’han donat d’alta o baixa sobre el rols Funcionari Habilitat.
+
+Es pot realitzar la petició sense paràmetres (per agafar tots els usuaris donats d’alta existents) i també indicant els següents paràmetres per una resposta més acurada:
+
+
 <p align="center">
 <img align="center" src="img/peticioconsultafuncionarishabilitats.jpg" />
 </p>
-
 
 
 | Element | Descripció |
@@ -303,6 +312,8 @@ La resposta màxim serà de 500 blocs (/respostaConsultaEns/resposta/ens). Si vo
 
 
 ### 3.5.2. Resposta dades específiques
+
+De l’schema associat a la resposta especifica, el servei informa les dades que es detallen a continuació.
 
 <p align="center">
 <img align="center" src="img/respostaconsultafuncionarishabilitats.jpg" />
