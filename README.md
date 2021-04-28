@@ -724,7 +724,7 @@ Exemple de resposta consultant per ```<nif>```.
 
 ## 4.5. EACAT_SERVEI Petició
 
-Exemple de petició consultant per ```<codiEns>```.
+Exemple de petició consultant per ```<codiEns>``` i ```<servei>```.
 
 ```xml
 <Peticion xmlns="http://gencat.net/scsp/esquemes/peticion">
@@ -770,7 +770,7 @@ Exemple de petició consultant per ```<codiEns>```.
 
 ## 4.6. EACAT_SERVEI Resposta
 
-Exemple de resposta consultant per ```<codiEns>```.
+Exemple de resposta consultant per ```<codiEns>``` i ```<servei>```.
 
 ```xml
 <respostaConsultaServei xmlns="http://www.aocat.net/eacat" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
