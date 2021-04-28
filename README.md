@@ -864,29 +864,334 @@ Exemple de resposta consultant per ```<codiEns>```.
 
 ## 4.7. EACAT_TIPUS_ENS Petició
 
+Exemple de petició de tipus d'ens.
+
 ```xml
+ <Peticion xmlns="http://gencat.net/scsp/esquemes/peticion">
+    <Atributos>
+       <IdPeticion>CU1-EACAT_TIPUS_ENS-${=(long)(System.currentTimeMillis())}</IdPeticion>
+       <NumElementos>1</NumElementos>
+       <TimeStamp/>
+       <CodigoCertificado>EACAT_TIPUS_ENS</CodigoCertificado>
+       <CodigoProducto>EACAT</CodigoProducto>
+       <DatosAutorizacion>
+          <IdentificadorSolicitante>9821920002</IdentificadorSolicitante>
+          <NombreSolicitante>CAOC</NombreSolicitante>
+          <Finalidad>PROVES</Finalidad>
+       </DatosAutorizacion>
+    </Atributos>
+    <Solicitudes>
+       <SolicitudTransmision>
+          <DatosGenericos>
+             <Solicitante>
+                <IdentificadorSolicitante>9821920002</IdentificadorSolicitante>
+                <NombreSolicitante>CAOC</NombreSolicitante>
+                <Finalidad>PROVES</Finalidad>
+                <Consentimiento>Si</Consentimiento>
+             </Solicitante>
+             <Transmision>
+                <CodigoCertificado>EACAT_TIPUS_ENS</CodigoCertificado>
+                <IdSolicitud>1</IdSolicitud>
+                <IdTransmision>EXPEDIENT</IdTransmision>
+                <FechaGeneracion/>
+             </Transmision>
+          </DatosGenericos>
+          <DatosEspecificos>
+             <peticioConsultaTipusEns xmlns="http://www.aocat.net/eacat">
+             </peticioConsultaTipusEns>
+          </DatosEspecificos>
+       </SolicitudTransmision>
+    </Solicitudes>
+ </Peticion>
 ```
 
 
 ## 4.8. EACAT_TIPUS_ENS Resposta
 
+Resposta de petició de tipus d'ens.
+
 ```xml
+<respostaConsultaTipusEns xmlns="http://www.aocat.net/eacat" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <peticioConsultaTipusEns/>
+  <resposta>
+     <tipusEns>
+        <idTipusEns>2</idTipusEns>
+        <nomTipusEns>Ajuntament</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>3</idTipusEns>
+        <nomTipusEns>Consell comarcal</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>4</idTipusEns>
+        <nomTipusEns>Entitat municipal descentralitzada</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>5</idTipusEns>
+        <nomTipusEns>Ens de gestió</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>6</idTipusEns>
+        <nomTipusEns>Diputació</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>7</idTipusEns>
+        <nomTipusEns>Entitat metropolitana</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>9</idTipusEns>
+        <nomTipusEns>Mancomunitat</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>10</idTipusEns>
+        <nomTipusEns>Nuclis</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>11</idTipusEns>
+        <nomTipusEns>Entitats de població</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>12</idTipusEns>
+        <nomTipusEns>Consorci</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>13</idTipusEns>
+        <nomTipusEns>Societat participada</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>14</idTipusEns>
+        <nomTipusEns>Entitat col·laboradora</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>15</idTipusEns>
+        <nomTipusEns>Ens instrumental</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>16</idTipusEns>
+        <nomTipusEns>Ens parlamentaris</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>17</idTipusEns>
+        <nomTipusEns>Comunitat de municipis</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>18</idTipusEns>
+        <nomTipusEns>Fundacions</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>20</idTipusEns>
+        <nomTipusEns>Organismes autónoms locals</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>21</idTipusEns>
+        <nomTipusEns>Entitats públiques empresarials locals</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>22</idTipusEns>
+        <nomTipusEns>Soc. merc. part. íntegrament ens local</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>60</idTipusEns>
+        <nomTipusEns>Ens adherits per Resolució</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>70</idTipusEns>
+        <nomTipusEns>EACIF -  Ent autònoma comer i financ</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>71</idTipusEns>
+        <nomTipusEns>EDP – Ent Dret Públic sub. ord. privat</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>72</idTipusEns>
+        <nomTipusEns>Consorci 2</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>73</idTipusEns>
+        <nomTipusEns>Fundació</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>74</idTipusEns>
+        <nomTipusEns>Societat Mercantil</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>75</idTipusEns>
+        <nomTipusEns>Ens de gestió 2</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>76</idTipusEns>
+        <nomTipusEns>Altres ens Públics</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>77</idTipusEns>
+        <nomTipusEns>Entitats autònomes administratives</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>78</idTipusEns>
+        <nomTipusEns>SCSE - Serv cat salut – ICS - INSS</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>79</idTipusEns>
+        <nomTipusEns>Ens de la Generalitat</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>90</idTipusEns>
+        <nomTipusEns>Universitat</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>91</idTipusEns>
+        <nomTipusEns>Ens dependents utilitzats a l'eTauler</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>92</idTipusEns>
+        <nomTipusEns>Ens instrumentals públics del món local</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>93</idTipusEns>
+        <nomTipusEns>Ens instrumentals privats  del món local</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>95</idTipusEns>
+        <nomTipusEns>Cambres de Comerç</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>96</idTipusEns>
+        <nomTipusEns>Ens de Formació</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>97</idTipusEns>
+        <nomTipusEns>Òrgan col·legiat</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>98</idTipusEns>
+        <nomTipusEns>Ens virtuals</nomTipusEns>
+     </tipusEns>
+     <tipusEns>
+        <idTipusEns>99</idTipusEns>
+        <nomTipusEns>Generalitat</nomTipusEns>
+     </tipusEns>
+  </resposta>
+  <resultat>
+     <codiResultat>0</codiResultat>
+     <descripcio/>
+  </resultat>
+</respostaConsultaTipusEns>
 ```
 
 
 ## 4.9. EACAT_FUNCIONARI_HABILITAT Petició
 
-Exemple de petició consultant per ```<>```.
+Exemple de petició consultant per ```<idens>```.
 
 ```xml
+<Peticion xmlns="http://gencat.net/scsp/esquemes/peticion">
+  <Atributos>
+     <IdPeticion>CU1-EACAT_TIPUS_ENS-${=(long)(System.currentTimeMillis())}</IdPeticion>
+     <NumElementos>1</NumElementos>
+     <TimeStamp/>
+     <CodigoCertificado>EACAT_FUNCIONARI_HABILITAT</CodigoCertificado>
+     <CodigoProducto>EACAT</CodigoProducto>
+     <DatosAutorizacion>
+        <IdentificadorSolicitante>9821920002</IdentificadorSolicitante>
+        <NombreSolicitante>CAOC</NombreSolicitante>
+        <Finalidad>PROVES</Finalidad>
+     </DatosAutorizacion>
+  </Atributos>
+  <Solicitudes>
+     <SolicitudTransmision>
+        <DatosGenericos>
+           <Solicitante>
+              <IdentificadorSolicitante>9821920002</IdentificadorSolicitante>
+              <NombreSolicitante>CAOC</NombreSolicitante>
+              <Finalidad>PROVES</Finalidad>
+              <Consentimiento>Si</Consentimiento>
+           </Solicitante>
+           <Transmision>
+              <CodigoCertificado>EACAT_FUNCIONARI_HABILITAT</CodigoCertificado>
+              <IdSolicitud>1</IdSolicitud>
+              <IdTransmision>EXPEDIENT</IdTransmision>
+              <FechaGeneracion/>
+           </Transmision>
+        </DatosGenericos>
+        <DatosEspecificos>
+           <peticioConsultaFuncionariHabilitat xmlns="http://www.aocat.net/eacat">
+           <idens>9821920002</idens>
+           </peticioConsultaFuncionariHabilitat>
+        </DatosEspecificos>
+     </SolicitudTransmision>
+  </Solicitudes>
+</Peticion>
 ```
 
 
 ## 4.10. EACAT_FUNCIONARI_HABILITAT Resposta
 
-Exemple de resposta consultant per ```<>```.
+Exemple de resposta consultant per ```<idens>```.
 
 ```xml
+<respostaConsultaFuncionariHabilitat xmlns="http://www.aocat.net/eacat" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <peticioConsultaFuncionariHabilitat/>
+  <resposta>
+     <funcionariHabilitat>
+        <nom>Adán Guerrero</nom>
+        <nif>47903282D</nif>
+        <tipus>MLO</tipus>
+        <nomEns>Consorci Administració Oberta de Catalunya</nomEns>
+        <codiEns>9821920002</codiEns>
+        <dataAlta>2021-01-01+01:00</dataAlta>
+        <assistirInteressats>true</assistirInteressats>
+        <expCopiesAutentiques>false</expCopiesAutentiques>
+     </funcionariHabilitat>
+     <funcionariHabilitat>
+        <nom>Jose Luis Pastor</nom>
+        <nif>46801863Z</nif>
+        <tipus>MLO</tipus>
+        <nomEns>Consorci Administració Oberta de Catalunya</nomEns>
+        <codiEns>9821920002</codiEns>
+        <dataAlta>2020-10-01+02:00</dataAlta>
+        <assistirInteressats>true</assistirInteressats>
+        <expCopiesAutentiques>true</expCopiesAutentiques>
+        <unitatAdministrativa>Secretaria</unitatAdministrativa>
+     </funcionariHabilitat>
+     <funcionariHabilitat>
+        <nom>Pepita Matllo Aguilar</nom>
+        <nif>52171818K</nif>
+        <tipus>MLO</tipus>
+        <nomEns>Consorci Administració Oberta de Catalunya</nomEns>
+        <codiEns>9821920002</codiEns>
+        <dataAlta>2020-10-04+02:00</dataAlta>
+        <assistirInteressats>true</assistirInteressats>
+        <expCopiesAutentiques>true</expCopiesAutentiques>
+        <unitatAdministrativa>Intervenció</unitatAdministrativa>
+     </funcionariHabilitat>
+     <funcionariHabilitat>
+        <nom>Usuari Proves SOC</nom>
+        <nif>50505050V</nif>
+        <tipus>MLO</tipus>
+        <nomEns>Ajuntament d'Abrera</nomEns>
+        <codiEns>800180001</codiEns>
+        <dataAlta>2020-09-06+02:00</dataAlta>
+        <assistirInteressats>true</assistirInteressats>
+        <expCopiesAutentiques>true</expCopiesAutentiques>
+        <unitatAdministrativa>Secretaria</unitatAdministrativa>
+     </funcionariHabilitat>
+     <funcionariHabilitat>
+        <nom>Usuari Proves SOC</nom>
+        <nif>50505050V</nif>
+        <tipus>MLO</tipus>
+        <nomEns>Consell Comarcal de l'Anoia</nomEns>
+        <codiEns>8100690004</codiEns>
+        <dataAlta>2020-10-04+02:00</dataAlta>
+        <assistirInteressats>true</assistirInteressats>
+        <expCopiesAutentiques>true</expCopiesAutentiques>
+        <unitatAdministrativa>Secretaria</unitatAdministrativa>
+     </funcionariHabilitat>
+  </resposta>
+  <resultat>
+     <codiResultat>0</codiResultat>
+     <descripcio/>
+  </resultat>
+</respostaConsultaFuncionariHabilitat>
 ```
 
 
