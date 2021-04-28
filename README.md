@@ -44,7 +44,7 @@ Document d’integració del servei
    * [3.5. Dades Funcionari Habilitat (EACAT_FUNCIONARI_HABILITAT)](#35-Dades-Funcionari-Habilitat-EACAT_FUNCIONARI_HABILITAT)
       - [3.5.1. Petició dades específiques](#351-Petició-dades-específiques)
       - [3.5.2. Resposta dades específiques](#352-Resposta-dades-específiques)
-- [4. Exemples](#5-Exemples-de-consulta)
+- [4. Exemples](#4-Exemples-de-consulta)
    * [4.1. EACAT_ENS - Petició](#41-EACAT_ENS-Petició)
    * [4.2. EACAT_ENS - Resposta](#42-EACAT_ENS-Resposta)    
    * [4.3. EACAT_USUARI - Petició](#43-EACAT_USUARI-Petició)
