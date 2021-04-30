@@ -1133,38 +1133,6 @@ Exemple de resposta consultant per ```<idens>```.
   <peticioConsultaFuncionariHabilitat/>
   <resposta>
      <funcionariHabilitat>
-        <nom>Adán Guerrero</nom>
-        <nif>47903282D</nif>
-        <tipus>MLO</tipus>
-        <nomEns>Consorci Administració Oberta de Catalunya</nomEns>
-        <codiEns>9821920002</codiEns>
-        <dataAlta>2021-01-01+01:00</dataAlta>
-        <assistirInteressats>true</assistirInteressats>
-        <expCopiesAutentiques>false</expCopiesAutentiques>
-     </funcionariHabilitat>
-     <funcionariHabilitat>
-        <nom>Jose Luis Pastor</nom>
-        <nif>46801863Z</nif>
-        <tipus>MLO</tipus>
-        <nomEns>Consorci Administració Oberta de Catalunya</nomEns>
-        <codiEns>9821920002</codiEns>
-        <dataAlta>2020-10-01+02:00</dataAlta>
-        <assistirInteressats>true</assistirInteressats>
-        <expCopiesAutentiques>true</expCopiesAutentiques>
-        <unitatAdministrativa>Secretaria</unitatAdministrativa>
-     </funcionariHabilitat>
-     <funcionariHabilitat>
-        <nom>Pepita Matllo Aguilar</nom>
-        <nif>52171818K</nif>
-        <tipus>MLO</tipus>
-        <nomEns>Consorci Administració Oberta de Catalunya</nomEns>
-        <codiEns>9821920002</codiEns>
-        <dataAlta>2020-10-04+02:00</dataAlta>
-        <assistirInteressats>true</assistirInteressats>
-        <expCopiesAutentiques>true</expCopiesAutentiques>
-        <unitatAdministrativa>Intervenció</unitatAdministrativa>
-     </funcionariHabilitat>
-     <funcionariHabilitat>
         <nom>Usuari Proves SOC</nom>
         <nif>50505050V</nif>
         <tipus>MLO</tipus>
